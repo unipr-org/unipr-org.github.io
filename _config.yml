@@ -1,9 +1,9 @@
 theme: jekyll-theme-cayman
 
-title: LiSA
-description: A Library for Static Analysis
-google_analytics: G-S6MJSTDQJL
+title: unipr-org
+description: L'organizzazione Github dedicata a riunire tutti gli studenti di Informatica dell'Università di Parma.
 
-exclude: [README.md, release.sh, check-links.sh, schemes.pptx]
+show_downloads: false
+google_analytics:
+exclude:
 
-ssv-homepage: https://ssv.dais.unive.it/
