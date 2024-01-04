@@ -1,0 +1,705 @@
+@import "normalize";
+@import "rouge-github";
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $body-text-color;
+}
+
+#skip-to-content {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+
+  &:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: auto;
+    background: invert($body-link-color);
+    outline: thick solid invert($body-link-color);
+  }
+}
+
+a {
+  color: $body-link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  + .btn {
+    margin-left: 1rem;
+  }
+
+  @include large {
+    padding: 0.75rem 1rem;
+  }
+
+  @include medium {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  @include small {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+
+    + .btn {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}
+
+.page-header {
+  color: $header-heading-color;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+
+  @include large {
+    padding: 0.5rem 0rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
+
+.title-wrapper {
+  @include large {
+    max-width: 60%;
+    padding: 0rem 6rem;
+    margin: 0 auto;
+  }
+
+  @include medium {
+  }
+
+  @include small {
+	text-align: center;
+  }
+}
+
+.buttons-wrapper {
+  @include large {
+    position: absolute;
+    right: 2%;
+    top: 3rem;
+  }
+
+  @include medium {
+  }
+
+  @include small {
+	text-align: center;
+  }
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  margin-right: 1rem;
+
+  @include large {
+    font-size: 5rem;
+  }
+
+  @include medium {
+    font-size: 3rem;
+  }
+
+  @include small {
+    font-size: 3rem;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 2rem;
+  }
+
+  @include medium {
+    font-size: 1.25rem;
+  }
+
+  @include small {
+    display: none;
+  }
+}
+
+.main-content {
+  word-wrap: break-word;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  @include large {
+    max-width: 60%;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+	max-width: 60%;
+    padding: 2rem 4rem;
+	margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+  
+  kbd {
+    background-color: #fafbfc;
+    border: 1px solid #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+    color: #444d56;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    padding: 3px 5px;
+    vertical-align: middle;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: $section-headings-color;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: $code-text-color;
+    background-color: $code-bg-color;
+    border-radius: 0.3rem;
+  }
+
+  pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: $code-text-color;
+    word-wrap: normal;
+    background-color: $code-bg-color;
+    border: solid 1px $border-color;
+    border-radius: 0.3rem;
+
+    > code {
+      padding: 0;
+      margin: 0;
+      font-size: 0.9rem;
+      color: $code-text-color;
+      word-break: normal;
+      white-space: pre;
+      background: transparent;
+      border: 0;
+    }
+  }
+
+  .highlight {
+    margin-bottom: 1rem;
+
+    pre {
+      margin-bottom: 0;
+      word-break: normal;
+    }
+  }
+
+  .highlight pre,
+  pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  pre code,
+  pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+
+    &:before,
+    &:after {
+      content: normal;
+    }
+  }
+
+  ul,
+  ol {
+    margin-top: 0;
+  }
+
+  blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: $blockquote-text-color;
+    border-left: 0.3rem solid $border-color;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+    -webkit-overflow-scrolling: touch;
+
+    th {
+      font-weight: bold;
+    }
+
+    th,
+    td {
+      padding: 0.5rem 1rem;
+      border: 1px solid $table-border-color;
+    }
+  }
+
+  dl {
+    padding: 0;
+
+    dt {
+      padding: 0;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    dd {
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: $hr-border-color;
+    border: 0;
+  }
+}
+
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px $hr-border-color;
+
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 1rem;
+  }
+
+  @include small {
+    font-size: 0.9rem;
+  }
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold;
+}
+
+.site-footer-credits {
+  color: $blockquote-text-color;
+}
+
+/*
+CUSTOM SECTION
+*/
+
+#backToTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #393939; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+  width: 35px;
+  height: 35px;
+}
+
+#backToTopBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#site-title {
+  color: #fff;
+}
+
+#site-title:hover {
+  text-decoration: none;
+}
+
+.sidenav {
+	height: 100%; 
+	width: 0; 
+	position: absolute; 
+	z-index: 1; 
+	overflow-x: hidden; 
+	transition: 0.5s; 
+	
+	a {
+		padding: 8px 0px;
+		text-decoration: none;
+		transition: color 0.2s;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+	.content-link a {
+		text-decoration: none;
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+	
+	#list-section-header ul a {
+		transition: color 0.2s;
+	}
+  
+	@include large {
+		max-width: 20%;
+		margin: 0 auto;
+		font-size: 1.1rem;
+
+		#list-section-header ul a {
+			color: $body-text-color;
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+		
+		.content-link a {
+			color: $body-text-color;
+		}
+	}
+
+	@include medium {
+		max-width: 15rem;
+		font-size: 1.1rem;
+		
+		#list-section-header ul a {
+			color: $body-text-color;
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+		
+		.content-link a {
+			color: $body-text-color;
+		}
+	}
+
+	@include small {
+		font-size: 1rem;
+		max-width: 100%;
+		top: 0;
+		color: $header-heading-color;
+		background-color: $header-bg-color;
+		background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+		
+		a, #list-section-header ul a, .content-link a {
+			color: rgba(255, 255, 255, 0.7);
+			&:hover {
+				color: rgba(255, 255, 255, 1);
+			}
+		}
+	}
+  
+	h2 {
+		color: $section-headings-color;
+		font-weight: normal;
+	}
+  
+	#list-section-header {
+		color: $section-headings-color;
+	}
+  
+	h2, ul {
+		padding-left: 25px;
+		padding-right: 15px;
+	}
+
+	li, ul ul {
+		list-style-type: none;
+		padding-left: 10px;
+	}
+
+	ul ul li {
+		padding-left: 0px;
+	}
+
+	.closebtn {
+		color: $section-headings-color;
+		position: absolute;
+		top: 8px;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+}
+
+.clickable-span {
+	font-size: 1.17em;
+	color: $section-headings-color;
+	cursor: pointer;
+}
+
+/* tabbed view */
+.tab {
+	overflow: hidden;
+}
+
+.tab button {
+	@extend .btn;
+	margin-bottom: 0;
+	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+	color: $body-text-color;
+	border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+	padding: 7px 20px;
+}
+
+.tab button:hover {
+	color: $section-headings-color;
+    border-color: $section-headings-color;
+}
+
+.tab button:focus {
+	outline: 0;
+}
+
+.tab button.active {
+	color: $section-headings-color;
+	border-color: $section-headings-color;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px;
+}
+
+.tabcontent.active {
+	display: block;
+}
+
+.head-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 6rem;
+	margin: 0 auto;
+	border-bottom: .0625rem solid #e5e5e5;
+	
+	@include large {
+		max-width: 60%;
+    }
+
+	@include medium {
+	}
+
+	@include small {
+	  display: none;
+	  padding: 0;
+	}
+}
+
+.head-menu-visible #headmenu {
+	display: block;
+}
+
+.head-menu-item {
+	padding-top: .9rem;
+	padding-bottom: .9rem;
+	padding-right: 1rem;
+	list-style: none;
+	a {
+		text-decoration: none;
+	}
+	@include small {
+		padding: .25rem 0rem;
+	}
+}
+
+.head-menu-item a {
+	color: $body-text-color;
+}
+
+.active-menu-item a {
+	color: $section-headings-color;
+}
+
+#togglemenu {
+	display: none; 
+	cursor: pointer;
+	color: $section-headings-color;
+	text-decoration: none;
+	
+	text-align: right;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+	border-bottom: .0625rem solid #e5e5e5;
+	
+	@include small {
+	  display: block;
+	}
+}
+
+#breadcrumbs {
+	font-size: 1rem;
+	color: $body-text-color;
+	a {
+		color: $section-headings-color;
+	}
+}
+
+/* this is the <time> tag used in the tutorials list */
+time { 
+	color: white;
+    background-color: #16955c;
+    border: 0px white solid;
+    border-radius: 100px;
+    padding: 0px 10px;
+	font-size: 1rem;
+}
+
+/* styling for the tables used to format the tutorials pages */
+.tutorialtable, .tutorialtable tr, .tutorialtable tr td {
+	border: none;
+	padding: 5px 0px 0px 10px;
+}
+.tutorialheader, .tutorialheader tr, .tutorialheader tr td {
+	border: none;
+	padding: 5px 0px 0px 0px;
+	name {
+		color: $section-headings-color;
+	}
+}
+
+/* images */
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
