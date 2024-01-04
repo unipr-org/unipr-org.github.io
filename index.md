@@ -4,15 +4,15 @@ notoc: true
 
 # unipr-org
 
-Benvenutə su *unipr-org*, l'organizzazione GitHub dedicata a riunire lɜ studentɜ di Informatica dell'Università di Parma per creare una ricca e condivisa raccolta di appunti. 
+Benvenutə su *unipr-org* , l'organizzazione GitHub dedicata a riunire lɜ studentɜ di Informatica dell'Università di Parma per creare una ricca e condivisa raccolta di appunti. 
 Siamo entusiasti di darti il benvenuto nel nostro progetto collaborativo, dove chiunque può contribuire e beneficiare dalla condivisione di conoscenze.
 
 ## Scopo dell'Organizzazione
-UniPRompts nasce con l'obiettivo di promuovere la collaborazione e la condivisione di risorse accademiche tra gli studentɜ dell'Università di Parma.
+*unipr-org* nasce con l'obiettivo di promuovere la collaborazione e la condivisione di risorse accademiche tra gli studentɜ dell'Università di Parma.
 La nostra missione è creare una piattaforma aperta e accessibile dove si può collaborare per sviluppare una vasta raccolta di appunti, materiale didattico e risorse utili per tutti i corsi offerti dall'università.
 
 ## Come Partecipare
-Siamo entusiasti di accogliere nuovi membri nell'organizzazione UniPRompts. Se sei unə studentə dell'Università di Parma e desideri contribuire o trarre vantaggio dalla raccolta di appunti, ecco come puoi partecipare:
+Siamo entusiasti di accogliere nuovi membri nell'organizzazione *unipr-org*. Se sei unə studentə dell'Università di Parma e desideri contribuire o trarre vantaggio dalla raccolta di appunti, ecco come puoi partecipare:
 
 1. **Unisciti all'organizzazione:** una volta dentro la repository del corso in questione, fai clic sul pulsante "Fork" in alto a destra per clonarla sulla tua pagina GitHub. In seguito, potrai contribuire e sottoporre richieste di pull.
 
@@ -62,7 +62,7 @@ Se hai domande, suggerimenti o desideri entrare in contatto con la community *un
 - [La nostra Pagina GitHub](https://github.com/unipr-org)
 <!-- [Il nostro Canale Discord](#inserisci_link_discord) -->
 
-Grazie per essere parte di *unipr-org*! Insieme possiamo rendere l'apprendimento universitario più accessibile e collaborativo per tuttɜ lɜ studentɜ dell'Università di Parma.
+Grazie per essere parte di *unipr-org* ! Insieme possiamo rendere l'apprendimento universitario più accessibile e collaborativo per tuttɜ lɜ studentɜ dell'Università di Parma.
 
 ## Contributors
 
