@@ -4,7 +4,7 @@ notoc: true
 
 # unipr-org
 
-Benvenutə su *unipr-org* , l'organizzazione GitHub dedicata a riunire lɜ studentɜ di Informatica dell'Università di Parma per creare una ricca e condivisa raccolta di appunti. 
+Benvenutə su *unipr-org*, l'organizzazione GitHub dedicata a riunire lɜ studentɜ di Informatica dell'Università di Parma per creare una ricca e condivisa raccolta di appunti. 
 Siamo entusiasti di darti il benvenuto nel nostro progetto collaborativo, dove chiunque può contribuire e beneficiare dalla condivisione di conoscenze.
 
 ## Scopo dell'Organizzazione
