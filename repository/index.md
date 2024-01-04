@@ -30,7 +30,7 @@
   <a target="_blank" href="https://github.com/unipr-org/FdI">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdI" />
   </a>
-  <a target="_blank" href="https://github.com/unipr-org/PoaM">
+  <a href="https://github.com/unipr-org/PoaM" target="_blank">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=PoaM" />
-  </a>
+  </a> 
 </div>
