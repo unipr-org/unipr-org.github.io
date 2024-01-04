@@ -1,36 +1,36 @@
 # Repository
 <div style="display: flex; flex-wrap: wrap;" align="center">  
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/FdP-A">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdP-A" />
+  <a href="https://github.com/unipr-org/FdP-A" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdP-A" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/FdP-B">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdP-B" />
+  <a href="https://github.com/unipr-org/FdP-B" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdP-B" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/ASD">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=ASD" />
+  <a href="https://github.com/unipr-org/ASD" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=ASD" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/BdD">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=BdD" />
+  <a href="https://github.com/unipr-org/BdD" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=BdD" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/SO">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=SO" />
+  <a href="https://github.com/unipr-org/SO" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=SO" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/CN">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=CN" />
+  <a href="https://github.com/unipr-org/CN" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=CN" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/MdP">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=MdP" />
+  <a href="https://github.com/unipr-org/MdP" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=MdP" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/ASC">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=ASC" />
+  <a href="https://github.com/unipr-org/ASC" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=ASC" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/PM">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=PM" />
+  <a href="https://github.com/unipr-org/PM" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=PM" />
   </a>
-  <a target="_blank" style="margin: 4px;" href="https://github.com/unipr-org/FdI">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdI" />
+  <a href="https://github.com/unipr-org/FdI" target="_blank">
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdI" />
   </a>
-  <a href="https://github.com/unipr-org/PoaM" target="_blank" style="margin: 4px;">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=PoaM" />
+  <a href="https://github.com/unipr-org/PoaM" target="_blank" >
+    <img style="margin: 4px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=PoaM" />
   </a> 
 </div>
