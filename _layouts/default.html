@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "it-IT" }}">
   <head>
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}" type="text/plain" cookie-consent="tracking"></script>
@@ -14,7 +14,7 @@
 		<script type="text/javascript" src="//www.termsfeed.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
 		<script type="text/javascript">
 		document.addEventListener('DOMContentLoaded', function () {
-		cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","language":"en","website_name":"LiSA","change_preferences_selector":"#cookiePrefs"});
+		cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","language":"en","website_name":"unipr-org","change_preferences_selector":"#cookiePrefs"});
 		});
 		</script>
 
@@ -38,12 +38,12 @@
   <body>
 	<header class="page-header" role="banner">
 		<div class="title-wrapper">
-		  <a class="project-name" href="{{ site.baseurl }}" id="site-title"><img src="{{ site.baseurl }}/white-title-no-bg-cropped.png" alt="{{ site.title }}" style="height: 2em"/></a> 
+		  <a class="project-name" href="{{ site.baseurl }}" id="site-title"><img src="{{ site.baseurl }}/white-title-no-bg-cropped.png" alt="{{ site.title }}" style="height: 1.5em"/></a> 
 		  <span class="project-tagline">{{ site.description }}</span>
 		</div>
 	  
 		<div class="buttons-wrapper">
-		  <a href="{{ site.github.repository_url }}" class="btn"><i class="fab fa-github"></i>&nbsp;&nbsp;unipr-org Repository</a>
+		  <!--<a href="{{ site.github.repository_url }}" class="btn"><i class="fab fa-github"></i>&nbsp;&nbsp;unipr-org Repository</a>-->
 		  <a href="{{ site.github.owner_url }}" class="btn"><i class="fas fa-university"></i>&nbsp;&nbsp;unipr-org Github</a>
 		</div>
     </header>
