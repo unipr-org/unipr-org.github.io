@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+
+title: unipr-org
+description: L'organizzazione Github dedicata a riunire tutti gli studenti di Informatica dell'Università di Parma.
+
+exclude: [README.md, release.sh, check-links.sh, schemes.pptx]
+
