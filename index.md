@@ -8,7 +8,7 @@ Benvenutə su *unipr-org*, l'organizzazione GitHub dedicata a riunire lɜ studen
 Siamo entusiasti di darti il benvenuto nel nostro progetto collaborativo, dove chiunque può contribuire e beneficiare dalla condivisione di conoscenze.
 
 ## Scopo dell'Organizzazione
-*unipr-org* nasce con l'obiettivo di promuovere la collaborazione e la condivisione di risorse accademiche tra gli studentɜ dell'Università di Parma.
+*unipr-org* nasce con l'obiettivo di promuovere la collaborazione e la condivisione di risorse accademiche tra lɜ studentɜ dell'Università di Parma.
 La nostra missione è creare una piattaforma aperta e accessibile dove si può collaborare per sviluppare una vasta raccolta di appunti, materiale didattico e risorse utili per tutti i corsi offerti dall'università.
 
 ## Come Partecipare
