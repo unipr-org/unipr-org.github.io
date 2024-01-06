@@ -26,14 +26,14 @@
   <a href="https://github.com/unipr-org/MdP" target="_blank">
     <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=MdP" />
   </a>
+  <a href="https://github.com/unipr-org/FdI" target="_blank">
+    <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdI" />
+  </a>
   <a href="https://github.com/unipr-org/ASC" target="_blank">
     <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=ASC" />
   </a>
   <a href="https://github.com/unipr-org/PM" target="_blank">
     <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=PM" />
-  </a>
-  <a href="https://github.com/unipr-org/FdI" target="_blank">
-    <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=FdI" />
   </a>
 </div>
 
@@ -41,5 +41,8 @@
 <div style="display: flex; flex-wrap: wrap;" align="center">  
   <a href="https://github.com/unipr-org/PoaM" target="_blank" >
     <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=PoaM" />
+  </a> 
+  <a href="https://github.com/unipr-org/AI" target="_blank" >
+    <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=AI" />
   </a> 
 </div>
