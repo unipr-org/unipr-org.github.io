@@ -34,6 +34,19 @@
     <script src="{{ site.baseurl }}/custom-assets/custom.js"></script>
     <script src="https://kit.fontawesome.com/954504fcb3.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico" >
+
+	<!-- LaTeX support -->
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+			skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			inlineMath: [['$','$']]
+			}
+		});
+	</script>
+	<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+	<!-- end LaTeX support -->
+
   </head>
   <body>
 	<header class="page-header" role="banner">
