@@ -14,7 +14,7 @@
 <img src="images/issue2.png">
 
 ## Avviare una Discussione
-1. Andare nella sezione dedicata sulla [homepage dell'organizzazione](https://github.com/orgs/unipr-org/discussions).
+1. Andare nella sezione dedicata sulla [*homepage dell'organizzazione*](https://github.com/orgs/unipr-org/discussions).
 <br>
 <img src="images/discussion.png">
 
