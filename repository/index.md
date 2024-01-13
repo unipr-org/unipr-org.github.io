@@ -39,6 +39,12 @@
 
 ## Terzo anno
 <div style="display: flex; flex-wrap: wrap;" align="center">  
+  <a href="https://github.com/unipr-org/RdC" target="_blank" >
+    <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=RdC" />
+  </a> 
+  <a href="https://github.com/unipr-org/IdS" target="_blank" >
+    <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=IdS" />
+  </a> 
   <a href="https://github.com/unipr-org/PoaM" target="_blank" >
     <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=PoaM" />
   </a> 
