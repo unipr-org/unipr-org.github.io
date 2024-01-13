@@ -46,3 +46,11 @@ Ora è possibile far generare un indice dinamico aggiungendo le seguenti righe d
 * Table of Content
 {:toc}
 ```
+
+---
+
+## Contributors
+<a href="https://github.com/unipr-org/unipr-org.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=unipr-org/unipr-org.github.io" />
+</a>
+Made with [contrib.rocks](https://contrib.rocks).
