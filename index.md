@@ -1,3 +1,13 @@
+---
+notoc: true
+---
+
+# unipr-org
+
+* Table of Content
+{:toc}
+
+
 # unipr-org
 
 Benvenutə su *unipr-org*, l'organizzazione GitHub dedicata a riunire lɜ studentɜ di Informatica dell'Università di Parma per creare una ricca e condivisa raccolta di appunti. 
