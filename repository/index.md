@@ -51,4 +51,7 @@
   <a href="https://github.com/unipr-org/AI" target="_blank" >
     <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=AI" />
   </a> 
+  <a href="https://github.com/unipr-org/HPC" target="_blank" >
+    <img style="margin: 1px;" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=unipr-org&repo=HPC" />
+  </a> 
 </div>
