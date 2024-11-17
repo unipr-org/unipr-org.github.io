@@ -1,0 +1,41 @@
+name: Sync and Build Website
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    - cron: '0 0 * * *' # Esegui ogni giorno a mezzanotte UTC
+  workflow_dispatch: # Permette di avviare manualmente l'Action
+
+jobs:
+  sync_repositories:
+    name: Sync and Build Website
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Website Repository
+        uses: actions/checkout@v3
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Run Sync Script
+        run: bash scripts/sync_repos.sh
+
+      - name: Commit and Push
+        run: |
+          git pull
+          git add .
+          git status
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Updated website"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
