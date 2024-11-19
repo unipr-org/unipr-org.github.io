@@ -5,8 +5,8 @@ on:
     branches:
       - main
       - master
-  schedule:
-    - cron: '0 0 * * *' # Esegui ogni giorno a mezzanotte UTC
+  # schedule:
+    # - cron: '0 0 * * *' # Esegui ogni giorno a mezzanotte UTC
   workflow_dispatch: # Permette di avviare manualmente l'Action
 
 jobs:
