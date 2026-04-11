@@ -36,7 +36,7 @@ permalink: /repository/
 * **[[FdI] Fondamenti di Informatica](https://github.com/unipr-org/FdI)** (9 CFU) 
 * **[[ASD-Lab] Laboratorio di Algoritmi e Strutture Dati](https://github.com/unipr-org/ASD)** (6 CFU)
 
-## 🔴 Terzo Anno e Opzionali Triennale
+## 🔴 Terzo Anno
 *Corsi specialistici e a scelta.*
 
 * **[[IdS] Ingegneria del Software](https://github.com/unipr-org/IdS)** (9 CFU) 
