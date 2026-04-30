@@ -6,8 +6,8 @@ permalink: /repository/
 
 # Archivio Repository Appunti
 
-> **Nota importante:** Questo elenco include **solo i repository attualmente esistenti** nell'organizzazione GitHub. 
-> 
+> **Nota importante:** Questo elenco include **solo i repository attualmente esistenti** nell'organizzazione GitHub.
+>
 > *Le materie sono organizzate secondo l'ultimo Piano di Studi (2025/26).*
 
 ---
@@ -21,53 +21,53 @@ permalink: /repository/
 ## 🟢 Primo Anno
 *Materie di base per le nuove matricole.*
 
-* **[[FdP-A] Fondamenti di Programmazione A](https://github.com/unipr-org/FdP-A)** (6 CFU) 
-* **[[FdP-B] Fondamenti di Programmazione B](https://github.com/unipr-org/FdP-B)** (9 CFU) 
-* **[[EdL] Elementi di Logica e Strutture Discrete](https://github.com/unipr-org/EdL)** (6 CFU) 
-* **[[ASD] Algoritmi e Strutture Dati](https://github.com/unipr-org/ASD)** (9 CFU) 
+* **[[FdP-A] Fondamenti di Programmazione A](https://github.com/unipr-org/FdP-A)** (6 CFU)
+* **[[FdP-B] Fondamenti di Programmazione B](https://github.com/unipr-org/FdP-B)** (9 CFU)
+* **[[EdL] Elementi di Logica e Strutture Discrete](https://github.com/unipr-org/EdL)** (6 CFU)
+* **[[ASD] Algoritmi e Strutture Dati](https://github.com/unipr-org/ASD)** (9 CFU)
 
 ## 🟡 Secondo Anno
 *Sviluppo, basi di dati e sistemi.*
 
-* **[[SO] Sistemi Operativi](https://github.com/unipr-org/SO)** (9 CFU) 
-* **[[BdD] Basi di Dati](https://github.com/unipr-org/BdD)** (9 CFU) 
-* **[[MdP] Metodologie di Programmazione](https://github.com/unipr-org/MdP)** (6 CFU) 
-* **[[CN] Calcolo Numerico](https://github.com/unipr-org/CN)** (6 CFU) 
-* **[[FdI] Fondamenti di Informatica](https://github.com/unipr-org/FdI)** (9 CFU) 
+* **[[SO] Sistemi Operativi](https://github.com/unipr-org/SO)** (9 CFU)
+* **[[BdD] Basi di Dati](https://github.com/unipr-org/BdD)** (9 CFU)
+* **[[MdP] Metodologie di Programmazione](https://github.com/unipr-org/MdP)** (6 CFU)
+* **[[CN] Calcolo Numerico](https://github.com/unipr-org/CN)** (6 CFU)
+* **[[FdI] Fondamenti di Informatica](https://github.com/unipr-org/FdI)** (9 CFU)
 * **[[ASD-Lab] Laboratorio di Algoritmi e Strutture Dati](https://github.com/unipr-org/ASD)** (6 CFU)
 
 ## 🔴 Terzo Anno
 *Corsi specialistici e a scelta.*
 
-* **[[IdS] Ingegneria del Software](https://github.com/unipr-org/IdS)** (9 CFU) 
-* **[[RdC] Reti di Calcolatori](https://github.com/unipr-org/RdC)** (9 CFU) 
-* **[[PM] Programmazione Mobile](https://github.com/unipr-org/PM)** (6 CFU) 
-* **[[ASC] Amministrazione Sistemi IT e Cloud](https://github.com/unipr-org/ASC)** (6 CFU) 
+* **[[IdS] Ingegneria del Software](https://github.com/unipr-org/IdS)** (9 CFU)
+* **[[RdC] Reti di Calcolatori](https://github.com/unipr-org/RdC)** (9 CFU)
+* **[[PM] Programmazione Mobile](https://github.com/unipr-org/PM)** (6 CFU)
+* **[[ASC] Amministrazione Sistemi IT e Cloud](https://github.com/unipr-org/ASC)** (6 CFU)
 * **[[PoaM] Programmazione orientata ai Microservizi](https://github.com/unipr-org/PoaM)** (6 CFU)
-* **[[HPC] Programmazione Parallela e HPC](https://github.com/unipr-org/HPC)** (6 CFU) 
+* **[[HPC] Programmazione Parallela e HPC](https://github.com/unipr-org/HPC)** (6 CFU)
 
 ## 🟣 Laurea Magistrale
 *Corsi avanzati di Scienze Informatiche.*
 
-* **[[AI] Intelligenza Artificiale](https://github.com/unipr-org/AI)** (6 CFU) 
-* **[[AIA] Algoritmi per l'IA](https://github.com/unipr-org/AIA)** (6 CFU) 
-* **[[LIA] Laboratorio di Intelligenza Artificiale](https://github.com/unipr-org/LIA)** (6 CFU) 
-* **[[ML] Machine Learning](https://github.com/unipr-org/ML)** (6 CFU) 
-* **[[ASVS] Analisi Statica e Verifica Software](https://github.com/unipr-org/ASVS)** (9 CFU) 
-* **[[LIeC] Linguaggi, Interpreti e Compilatori](https://github.com/unipr-org/LIeC)** (9 CFU) 
-* **[[SI] Sicurezza Informatica](https://github.com/unipr-org/SI)** (6 CFU) 
-* **[[FdAI] Fondamenti di Intelligenza Artificiale](https://github.com/unipr-org/FdAI)** (6 CFU) 
-* **[[BDDM] Big Data e Data Mining](https://github.com/unipr-org/BDDM)** (6 CFU) 
-* **[[PD] Programmazione Dichiarativa](https://github.com/unipr-org/PD)** (6 CFU) 
-* **[[QC] Quantum Computing](https://github.com/unipr-org/QC)** (6 CFU) 
-* **[[MSN] Modellazione e Sim. Numeriche](https://github.com/unipr-org/MSN)** (6 CFU) 
-* **[[DoRSSS] Development of Reliable, Safe and Secure Software](https://github.com/unipr-org/DoRSSS)** (6 CFU) 
+* **[[AI] Intelligenza Artificiale](https://github.com/unipr-org/AI)** (6 CFU)
+* **[[AIA] Algoritmi per l'IA](https://github.com/unipr-org/AIA)** (6 CFU)
+* **[[LIA] Laboratorio di Intelligenza Artificiale](https://github.com/unipr-org/LIA)** (6 CFU)
+* **[[ML] Machine Learning](https://github.com/unipr-org/ML)** (6 CFU)
+* **[[ASVS] Analisi Statica e Verifica Software](https://github.com/unipr-org/ASVS)** (9 CFU)
+* **[[LIeC] Linguaggi, Interpreti e Compilatori](https://github.com/unipr-org/LIeC)** (9 CFU)
+* **[[SI] Sicurezza Informatica](https://github.com/unipr-org/SI)** (6 CFU)
+* **[[FdAI] Fondamenti di Intelligenza Artificiale](https://github.com/unipr-org/FdAI)** (6 CFU)
+* **[[BDDM] Big Data e Data Mining](https://github.com/unipr-org/BDDM)** (6 CFU)
+* **[[PD] Programmazione Dichiarativa](https://github.com/unipr-org/PD)** (6 CFU)
+* **[[QC] Quantum Computing](https://github.com/unipr-org/QC)** (6 CFU)
+* **[[MSN] Modellazione e Sim. Numeriche](https://github.com/unipr-org/MSN)** (6 CFU)
+* **[[DoRSSS] Development of Reliable, Safe and Secure Software](https://github.com/unipr-org/DoRSSS)** (6 CFU)
 
 ---
 
 ## Risorse Trasversali
 * **[[Tutorati] Materiale Esercitazioni](https://github.com/unipr-org/tutorati)**
-* **[[LaTeX Thesis Template] Modello Tesi](https://github.com/unipr-org/thesis-template)**
+* **[[LaTeX Thesis Template] Modello Tesi](https://github.com/unipr-org/template-tesi)**
 
 ---
 
